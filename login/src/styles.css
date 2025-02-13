@@ -121,3 +121,16 @@ select {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+.navbar .logo a {
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #007bff;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .logo a:hover {
+  color: #ff5722;
+}
