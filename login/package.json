@@ -12,10 +12,12 @@
    "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
   },
+  
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-app": "^0.1.6"
+    "react-router-app": "^0.1.6",
+     "gh-pages": "^6.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
